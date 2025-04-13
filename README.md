@@ -18,7 +18,8 @@ Build a robust Task Management API to perform CRUD operations and provide enhanc
 - **Mongoose**
 - **Joi** (for input validation)
 - **nodemon** (for development)
-
+- **bcrypt** (hashing password securely)
+- **env-cmd** (display your current environment or run a specified command in a changed environment)
 ---
 
 ## 📦 API Features
@@ -27,6 +28,8 @@ Build a robust Task Management API to perform CRUD operations and provide enhanc
 
 | Method | Endpoint                  | Description                              |
 |--------|---------------------------|------------------------------------------|
+| POST   | `/api/user/register`      | Create a new user                        |
+| POST   | `/api/user/login`         | Login a user                             |
 | POST   | `/api/tasks`              | Create a new task                        |
 | GET    | `/api/tasks`              | Retrieve all tasks with pagination, sorting, and filtering |
 | GET    | `/api/tasks/:id`          | Retrieve a specific task by ID           |
@@ -35,6 +38,18 @@ Build a robust Task Management API to perform CRUD operations and provide enhanc
 | PATCH  | `/api/tasks/:id/status`   | Update only the task status              |
 
 ---
+## 📄 User Schema
+
+```js
+{
+  firstName: String,
+  lastName:String,
+  email: String, // required, unique
+  password: String // hashed
+  gender:String, // enum: ["male", "female", "other"]
+  location:String
+}
+
 
 ## 📄 Task Schema
 
