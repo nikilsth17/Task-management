@@ -38,9 +38,9 @@ Build a robust Task Management API to perform CRUD operations and provide enhanc
 | PATCH  | `/api/tasks/:id/status`   | Update only the task status              |
 
 ---
-## 📄 User Schema
-
+## 📄  Schema
 ```js
+🧑 User schema
 {
   firstName: String,
   lastName:String,
@@ -50,32 +50,30 @@ Build a robust Task Management API to perform CRUD operations and provide enhanc
   location:String
 }
 
-
-## 📄 Task Schema
-
-```js
+📄 Task Schema
 {
   title: String,
   description: String, // required
   status: String, // enum: ["pending", "in-progress", "completed"]
   createdAt: Date
 }
-
+```
 
 ---
 
 ## ⚙️ Installation & Setup
 
-### 1. Clone the Repository
+
 
 ```bash
+### 1. Clone the Repository
 git clone https://github.com/yourusername/task-management-api.git
 cd task-management-api
 
+### 2. Npm install
 npm install
 
-# Development mode
-npm run dev
-
-# Production mode
+### 3. Development mode
 npm start
+
+```
