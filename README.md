@@ -1,6 +1,12 @@
-# 📋 Task Management API
+> 👋 Hello Recruiters!
 
-A RESTful API built with **Node.js**, **Express**, and **MongoDB** for managing tasks. This project is designed to demonstrate proficiency in creating scalable backend applications with best practices, including input validation, pagination, sorting, and filtering.
+Thank you for checking out my project! This **Task Management API** is part of a backend development challenge where I’ve implemented RESTful APIs using **Node.js**, **Express**, and **MongoDB**.  
+
+It showcases:
+- Clean code structure and best practices
+- Data validation using Joi
+- API features like filtering, pagination, sorting
+- Modular and scalable project architecture
 
 ---
 
@@ -77,3 +83,10 @@ npm install
 npm start
 
 ```
+Feel free to explore the code, try out the endpoints, and see how I've structured everything.  
+If you have any questions or would like to discuss opportunities, I'd love to connect!
+
+📩 **Email:** nikillawo7@gmail.com  
+
+
+Thanks again for visiting!
